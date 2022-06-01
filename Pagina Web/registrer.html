@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./Css/registro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="form_wrapper">
+        <div class="form_container">
+            <div class="title_container">
+                <h2>Registro de nuevo usuario</h2>
+            </div>
+            <div class="row clearfix">
+                <div class="">
+                    <form>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <input type="text" name="name" placeholder="Nombre" />
+                        </div>
+
+
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <input type="text" name="name" placeholder="Apellido" required />
+                        </div>
+
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-id-card"></i></span>
+                            <input type="text" name="email" placeholder=" Ingrese su documento de identidad" required />
+                        </div>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+                            <input type="text" name="password" placeholder="Ingrese un número de teléfono"
+                                required />
+                        </div>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+                            <input type="email" name="email" placeholder=" Ingrese un E-mail valido" required />
+                        </div>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <input type="text" name="email" placeholder=" Ingrese un nombre de usuario" required />
+                        </div>
+                        
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                            <input type="password" name="password" placeholder="Ingrese una contraseña" required />
+                        </div>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                            <input type="password" name="password" placeholder="Repita su contraseña" required />
+                        </div>
+
+                        <div class="input_field checkbox_option">
+                            <input type="checkbox" id="cb1">
+                            <label for="cb1">He leído y acepto los términos y condiciones</label>
+                        </div>
+                       
+                        <input class="button" type="submit" value="Register" />
+                        <a href="./home.html"> Atrás</a>
+                        
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
