@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/agregarproducto.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+        <h1>
+            Aroma Coffe Shop
+        </h1>
+
+    </div>
+
+    
+
+
+    <section>
+        
+
+        <form action="#" method="post">
+            <input type="radio" name="slide_button" id="slide1">
+            <input type="radio" name="slide_button" id="slide2" checked>
+            <div class="slide-number">
+                <label for="slide2" class="number" id="slidenumber1">1</label>
+                <label for="slide1" class="number" id="slidenumber2">2</label>
+            </div>
+            <div class="slider">
+                <div class="slider-element">
+                </div>
+            </div>
+            <div class="outer-form">
+                <div id="slideform1" class="inner-form">
+                    <h2>Producto Nuevo</h2>
+                    <div>
+                        <label for="name">
+                           Nombre del producto
+                            <span data-tool-tip="Nombre del Producto que subiras">
+                                <img src="https://img.icons8.com/material-outlined/16/888888/info.png" />
+                            </span>
+                        </label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="mobile">Detalles del producto</label>
+                        <textarea name="nombre" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="email">Imagen</label>
+                        <input type="file" name="email" id="email">
+                    </div>
+                    <div>
+                        <label class="next-button" onclick="email_to_username()" for="slide1">
+                            Next&nbsp;&nbsp;
+                        </label>
+                    </div>
+                </div>
+                <div id="slideform2" class="inner-form">
+                    <label class="back" for="slide2">
+                        <img src="https://img.icons8.com/metro/26/0078d7/circled-left-2.png" />
+                    </label>
+                    <h2>Editar Producto</h2>
+                    <div>
+                        <label for="username">Nombre del Producto</label>
+                        <input type="text" name="pdructo" id="producto"  required >
+                    </div>
+                    <div>
+                        <label for="mobile">Detalles del producto</label>
+                        <textarea name="nombre" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        
+                        <label for="passwordretype">Imagen</label>
+                        
+                        <input type="file" name="file" id="file">
+                        <img style="width: 100%; position: absolute; margin-left: 110%; margin-top: -45%; " src="https://cdn.pixabay.com/photo/2013/11/05/23/55/coffee-206142_960_720.jpg" alt="">
+                    </div>
+                    <div>
+                        <button class="next-button" type="submit">
+                          <a style="color: white;" href="">Guardar</a> 
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+      
+    </section>
+    <footer class="footer">
+
+        <a href="">Ayuda  ayuda@aromacoffe.co</a> 
+        <a style="text-align: center; color: black; margin-left: 400px;"   href="./home.html">Atras</a>
+        
+    
+        <p>Aviso Legal <br>Politica de Privacidad</p>
+        
+    
+    </footer>
+
+</body>
+
+</html>
