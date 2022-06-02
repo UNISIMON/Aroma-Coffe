@@ -1,0 +1,152 @@
+body{
+    background-color: #F2EBD5;
+}
+
+.header {
+    padding: 10px;
+    background: #8C5954;
+    color: white;
+    font-size: 15px;
+  }
+
+.header p{
+    font-weight: bold;
+     position: relative;
+     float: right;
+     margin-top: -45px;
+}
+
+.text1{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.container {
+    position: relative;
+    width: 48%;
+    float: left;
+  }
+  
+ 
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #F2EBD5;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    text-align: center;
+   
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+  }
+  
+  .text-block a:hover{
+      color:#3B3440;
+  }
+
+  .text-block a{
+      text-decoration: none;
+      color: black;
+      
+  }
+  .container img{
+    border-radius: 20px;
+  }
+
+  .container img:hover{
+     filter: grayscale(80%);
+      
+  }
+
+  .container2{
+
+   float: left;
+    position: relative;
+    width: 48%;
+    display:block;
+    margin-left: 53px;
+    border-radius: 10px;
+    
+    
+   
+  }
+  .container2 img{
+    border-radius: 20px;
+  }
+
+  .container2 img:hover{
+    filter: grayscale(80%);
+     
+ }
+
+
+  
+  .text-block2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #F2EBD5;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    text-align: center;
+   
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+  }
+  
+  .text-block2 a:hover{
+      color:#3B3440;
+  }
+
+  .text-block2 a{
+      text-decoration: none;
+      color: black;
+      
+  }
+
+  .atras{
+
+    background-color: #3B3440 ;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+  }
+
+  footer{
+    padding: 20px;
+    background: #8C5954;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  footer a{
+      color: white;
+  }
+
+  footer p{
+      float: right;
+      position: relative;
+      margin-top: -13px;
+  }
+
+
+
+      
+     
+     
